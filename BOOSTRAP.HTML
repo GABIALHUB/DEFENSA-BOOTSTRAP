@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navbar con Carrusel</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="bootstrap.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-color ">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar scroll</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarScroll">
+      <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Link
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Link</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<!-- tabla -->
+<div class="container">
+  <div class="row">
+    <div class="col-md-4 bordered-div image-container">
+      <img src="IMAGENES 1/SELLOS.jpg" alt="Imagen 1"">
+    </div>
+    <div class="col-md-4 bordered-div image-container" >
+<h2>SELLOS</h2>
+<P>El término sello se aplica, por un lado, para nombrar el instrumento con imágenes grabadas que, a través de la impresión de tinta sobre el papel, se utiliza para autorizar documentos. Por otro lado, también se llama sello la impresión que resulta del uso de ese instrumento, generalmente al lado de una o más firmas. </P>
+    </div>
+    <div class="col-md-4 bordered-div image-container">
+      <img src="IMAGENES 1/SELLOS.jpg" alt="Imagen 3">
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<div class="container2">
+  <div class="row">
+    <div class="col-md 6-8bordered-di  image-container" >
+ 
+<div class="container mt-5">
+  <h2>Table with Modal on Right</h2>
+  <table class="table">
+    <tbody>
+      <tr>
+        <td>Mark</td>
+        <td>
+            <div class="d-grid gap-2 d-md-block">
+    <button class="btn btn-primary" type="button">eliminar</button>
+    <button class="btn btn-warning" type="button">editar</button>
+    <button class="btn btn-primary" type="button">arrastrar</button>
+  </div>
+        </td>
+      </tr>
+      <tr>
+        <td>Jacob</td>
+        <td>
+        <div class="d-grid gap-2 d-md-block">
+    <button class="btn btn-primary" type="button">eliminar</button>
+    <button class="btn btn-warning" type="button">editar</button>
+    <button class="btn btn-primary" type="button">arrastrar</button>
+  </div>
+     </td>
+      </tr>
+      <tr>
+        <td>Laura</td>
+        <td>
+        <div class="d-grid gap-2 d-md-block">
+    <button class="btn btn-primary" type="button">eliminar</button>
+    <button class="btn btn-warning" type="button">editar</button>
+    <button class="btn btn-primary" type="button">arrastrar</button>
+  </div>
+     </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- Modal -->
+<div class="modal fade right" id="modalRight" tabindex="-1" aria-labelledby="modalRightLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalRightLabel">Details</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Details about the selected item will appear here.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  </div>
+  
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+

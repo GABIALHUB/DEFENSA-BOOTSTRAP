@@ -1,0 +1,47 @@
+img{
+    width:300px ;
+height: 100px;
+}
+.navbar{
+    background: rgb(2,0,36);
+background: rgb(116, 224, 116);
+
+}
+.container {
+    margin: 30px;
+    background-color: bisque;
+    align-items: center;
+    align-content: center
+    ;
+  }
+  .bordered-div {
+    border: 2px solid black;
+    padding: 10px;
+  }
+  .image-container img {
+    width: 70%;
+    height: auto;
+
+  }
+  .imagen1{
+    align-content: center;
+  }
+
+  .bordered-di {
+    border: 2px solid rgb(108, 15, 15);
+    background-color: rgb(217, 221, 221);
+    padding: 10px;
+  }
+  .modal.right .modal-dialog {
+    position: fixed;
+    margin: auto;
+    width: 320px;
+    height: 100%;
+    right: 0;
+    top: 0;
+  }
+  .col4{
+    background-image: url(./BOOSTRAP.HTMLI);
+    width: 850px;
+    height: 250px;
+    padding: 15px;
